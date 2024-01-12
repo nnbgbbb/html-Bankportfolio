@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  
+* {
+  box-sizing: border-box;
+}
+
+
+.body{
+    background-color: darkgray;
+
+}
+.head{
+    background-color: darkorange;
+    padding: 1px;
+    margin-left: 0px;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background: rgb(115, 242, 176);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    z-index: 100;
+    font-size: 18px;
+    /* width: 1150px; */
+}
+
+.ul-list{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+
+}
+.ul-list li{
+    list-style: none;
+}
+.ul-list li a{
+    color: rgb(241, 231, 238);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.ul-list li a:hover{
+  background-color: cyan;
+  color:black
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 8px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+.lower{
+    background-color: rgb(81, 81, 230);
+} 
+.about_img img{
+ width: 100vw;
+ object-fit: cover;
+}
+
+.footer
+{
+    text-align: center;
+    background: #212121;
+    color: white;
+    padding: 1em 0;
+}
+.fp{
+    font-size: 15px;
+    padding: 3px;
+}
+.fp:hover{
+    background-color: rgb(254, 141, 3);
+    
+}
+
+</style>
+</head>
+<body>
+
+<nav class="header">
+  <div class="logo"><img src="symbol.jpg" alt="" width="100px" height="100px"></div>
+  <div class="h1"><h1>Bank of Maharashtra</h1></div>
+  <ul class="ul-list">
+    <div class="lis"></li><li><a href="bank.html">Home</a></li></div>
+    <div class="lis"><li><a href="faq.html">FAQs</a></li></div>
+    <div class="lis"><li><a href="about.html">About Us</a></li></div>
+    <div class="lis"><li><a href="#">Help</a></li></div>
+  </ul>
+</nav>
+
+<div class="about_img">
+    <img src="https://growthsyndicatesaustralia.com/wp-content/uploads/2019/08/bank-building.jpg" alt="bank img" width="1150px" height="300px">
+  </div>
+<div class="row">
+  <div class="col-3 menu">
+    <div class="options">
+    <ul>
+      <li>Service Charges</li>
+      <li>Public Information</li>
+      <li>Gallery</li>
+      <li>Social Activity</li>
+      <li>Board of Directors</li>
+      <li>Top Movements</li>
+    </ul>
+    </div>
+  </div>
+
+
+  <div class="col-9">
+    <div class="head">
+        <h1>The Begining</h1>
+    </div>
+    <div class="body">
+    <p>Maharashtra has been a progressive region and the Banking activity was also started in this region quite early. Historically speaking, the Bank of Bombay established in 1840 was the first Commercial Bank in Maharashtra. However, the first commercial bank set up in Maharashtra outside Mumbai was The Poon...</p><hr>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum corrupti aperiam quod libero voluptas temporibus exercitationem sed expedita omnis. Exercitationem, voluptas illum? Dolorum, consequatur sapiente ullam doloribus adipisci fugit possimus.corrupti aperiam quod libero voluptas temporibus exercitationem sed expedita omnis. Exercitationem, voluptas illum? Dolorum, consequatur sapiente ullam doloribus adipisci fugit possimus.</p><hr>
+    </div>  
+  </div>
+</div>
+    <footer class="footer">
+    <p class="fp">&copy; BAnkIO Bank 2023. All rights reserved.</p>
+    <div class="footer_img">
+      <img src="https://s3.amazonaws.com/freebiesupply/large/2x/whatsapp-logo-transparent.png" width="25px" >
+      <img src="http://www.greenfarmcoffee.co.uk/wp-content/uploads/Twitter_logo_bird_transparent_png-2-788x640.png" alt="twiter image" width="25px">
+      <img src="https://logospng.org/download/telegram/logo-telegram-2048.png" alt="telegram image" width="25px">
+      <img src="https://www.freepngimg.com/thumb/computer/68394-computer-instagram-icons-png-file-hd.png" alt="insta img" width="25px">
+    </div>
+    </footer>
+  
+</section>
+
+</body>
+</html>
+
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        
+        input[type=text], select {
+        width: 200px;
+        padding: 12px 12px;
+        font-size: 15px;
+        margin: 8px ;
+        margin-left: 2px;
+        border :3px solid rgb(72, 72, 3);
+        border-radius: 4px;
+        box-sizing: border-box;
+        transition: width 0.4s ease-in-out;
+        }
+        input[type=text]:focus {
+            width: 60%;
+        }
+
+        input[type=submit] {
+        width: 40%;
+        background-color: #5a756f;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+
+        div {
+        border-radius: 5px;
+        background-color: #aa808d;
+        padding: 18px;
+        margin-left: ;
+        }
+
+        body {
+            margin-left: 410px;
+            border: 3px solid rgb(54, 50, 2);
+            width: 40%;
+            height: 55%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        h2{
+            text-align: center;
+            width: 70%;
+            background-color: rgb(212, 201, 131);
+            padding: 2%;
+            margin-left: 60px;
+            box-shadow: 5px 5px;
+            font-size: 25px;
+        }
+        #bom{
+            animation: mymove 3s infinite;
+            font-size: 18px;
+
+        }
+        @keyframes mymove {
+            50% {font-weight: bold;}
+        }
+</style>
+
+
+</head>
+<body>
+    
+    <div>
+        <h2><marquee>login For Corporate</marquee></h2>
+        <form><pre>
+            <div id="bom">
+            <lable for="Fname"> Corporate Id *</lable>
+            <input type="text" id="Fname" name="fname" placeholder="Your Name...">
+            <lable for="Fname"> User Id *</lable>
+            <input type="text" id="Fname" name="fname" placeholder="Your Name...">
+            <lable for="Fname">Password *</lable>
+            <input type="text" id="Fname" name="fname" placeholder="Your Last Name...">
+            <label for="country" >Select Branch</label>
+            <select id="country" name="counntry"><br><br>
+                <option value="india">Baramati</option>
+                <option value="Goa">Indapur</option>
+                <option value="usa">Bhawaninagar</option><br><br>
+            </div>
+            </select>
+            <input type="submit" value="submit" style="font-size: large;">
+            <lable for="Fname"><a href="forgot_password_corporate.html">forgot password</a></li></lable>
+
+        </pre>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <style>
+        :root{
+    --normal-margin: 1em;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.align-center{
+    text-align: center;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.sign{
+    height: 430px;
+    width: 350px;
+    box-shadow:  2px 0 15px 0 rgba(10, 67, 74, 0.3);
+    background: #c4fc37;
+    padding: 25px;
+    margin: 50px 0px 0px 428px;
+    text-align: center;
+    border-radius: 35px 0px 35px 0px;
+}
+
+.sign-btn a{
+    text-decoration: none;
+    color: #f1bb9c;
+}
+.sign h1{
+    color: #384602;
+    background-color: rgb(153, 153, 153);
+}
+h1:hover{
+    color: #96f642;
+    background-color: #7c7e80;
+    
+}
+
+.sign-btn{
+    font-size: 20px;
+    background-color: #1c8adb;
+    border: 2px solid rgb(61, 189, 208);
+    width: 50%;
+    padding: 7px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.sign_go{
+    margin-bottom: var(--normal-margin);
+}
+
+hr{
+    margin-top: 20px;
+}
+.or{
+    background: #fff;
+    width: 20%;
+    margin: 10px auto 10px;
+}
+.inp{
+    margin: 10px 0px;
+    max-width: 100vw;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    outline: none;
+}
+#agree{
+    margin: var(--normal-margin) 0;
+}
+    </style>
+    
+</head>
+<body>
+    
+    <div class="sign">
+        <h1>Sign Up Now</h1>
+        <form>
+           
+        <br><br><br><input type="email" placeholder="Enter Your Email" class="email inp">
+
+        <input type="password" placeholder="Enter Your Password" class="pwd inp" required>
+         
+        <p class="agcheck"><span><input type="checkbox" id="agree"> <label for="agree">agree to the term of services </label></span></p>
+        <button  type="button"class="sign_up sign-btn"><a href="bank.html">Sign Up</a></button>
+
+        <p>Already have an account <a href="log.html" class="op">Log in</a></p>
+       </form>
+    </div>
+</body>
+</html>
